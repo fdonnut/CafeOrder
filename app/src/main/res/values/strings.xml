@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CafeOrder</string>
+    <string name="welcome">Welcome!</string>
+    <string name="username_hint">Name</string>
+    <string name="password_hint">Password</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="logo">Logo</string>
 </resources>
