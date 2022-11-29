@@ -45,14 +45,11 @@ public class MakeOrderActivity extends AppCompatActivity {
         initViews();
         setupUserName();
 
-        radioGroupDrinks.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int id) {
-                if (id == radioButtonTea.getId()) {
-                    onUserChoseTea();
-                } else if (id == radioButtonCoffee.getId()) {
-                    onUserChoseCoffee();
-                }
+        radioGroupDrinks.setOnCheckedChangeListener((radioGroup, id) -> {
+            if (id == radioButtonTea.getId()) {
+                onUserChoseTea();
+            } else if (id == radioButtonCoffee.getId()) {
+                onUserChoseCoffee();
             }
         });
         radioButtonTea.setChecked(true);
