@@ -18,6 +18,7 @@
     <string name="drink">Drink:</string>
     <string name="drink_type">Type of drink:</string>
     <string name="additives_label">Additives:</string>
+    <string name="empty_fields">Empty fields!</string>
 
     <array name="types_of_tea">
         <item>Green</item>
